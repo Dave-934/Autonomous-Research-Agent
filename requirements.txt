@@ -1,0 +1,13 @@
+openai    # --> for LLM (GPT models).
+langchain    # --> orchestration of search/retriever/LLM.
+langchain-openai    # --> OpenAI integration for LangChain.
+llama-index    # --> document indexing + retrieval (future extension).
+pinecone    # --> vector DB for embeddings.
+faiss-cpu    # --> optional fallback, not needed if we stick to Pinecone (can be removed if I want).
+streamlit    # --> frontend app.
+fastapi    # --> backend REST API.
+uvicorn    # --> server for FastAPI.
+requests    # --> to call Serper.dev (Google search).
+python-dotenv    # --> to load .env file.
+reportlab    # --> to generate PDF reports.
+weasyprint    # --> to generate PDF reports.

@@ -159,7 +159,7 @@ from src.agent import run_research_pipeline
 st.set_page_config(page_title="Autonomous Research Agent", page_icon="🤖", layout="wide")
 
 st.title("🤖 Autonomous Research Agent")
-st.write("Ask me a question. The agent remembers your previous questions for multi-turn research.")
+st.write("Ask me any reasearch related question. And I’ll generate a structured research report with sources.")
 
 # Initialize conversation history list in session state
 if "conversation_history" not in st.session_state:
@@ -185,7 +185,7 @@ if prompt := st.chat_input("Enter your research topic/question:"):
         st.markdown(prompt)
 
     # Run research pipeline with current conversation history for multi-turn context
-    with st.spinner("🔎 Researching..."):
+    with st.spinner("🔎 Generating/Researching..."):
         result = run_research_pipeline(prompt, st.session_state.conversation_history)
 
     # Handle errors

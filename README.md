@@ -6,25 +6,25 @@ This project is an in-development, multi-turn Autonomous Research Agent (ARA). I
 
 ## Features
 
-- **Multi-turn conversation: Remembers your previous questions and answers—adjusts context for follow-up queries.
-- **Intent-based response: Distinguishes between research queries (structured reports) and casual chat (conversational replies).
-- **Real-time web search: Uses Serper.dev (Google Search) for live internet results with robust paraphrased summarization.
-- **Vector database retrieval: Stores and retrieves semantic document embeddings using Pinecone.
-- **LLM-driven summarization: Leverages OpenAI’s GPT-4o-mini via LangChain for natural, high-quality synthesis.
-- **Citable, PDF-friendly reports: Generates markdown and PDF research reports with Introduction, Key Findings, Sources, and Summary.
-- **Modern Streamlit interface: Web UI with typewriter effect for engaging, “ChatGPT-like” user experience.
-- **FastAPI backend: Enables research automation and custom app integrations.
-- **Docker deployment: Simple, production-friendly containerization for local and cloud use.
+- **Multi-turn conversation:** Remembers your previous questions and answers—adjusts context for follow-up queries.
+- **Intent-based response:** Distinguishes between research queries (structured reports) and casual chat (conversational replies).
+- **Real-time web search:** Uses Serper.dev (Google Search) for live internet results with robust paraphrased summarization.
+- **Vector database retrieval:** Stores and retrieves semantic document embeddings using Pinecone.
+- **LLM-driven summarization:** Leverages OpenAI’s GPT-4o-mini via LangChain for natural, high-quality synthesis.
+- **Citable, PDF-friendly reports:** Generates markdown and PDF research reports with Introduction, Key Findings, Sources, and Summary.
+- **Modern Streamlit interface:** Web UI with typewriter effect for engaging, “ChatGPT-like” user experience.
+- **FastAPI backend:** Enables research automation and custom app integrations.
+- **Docker deployment:** Simple, production-friendly containerization for local and cloud use.
 
 ***
 
 ## Requirements
 
-- **Python 3.11+
-- **OpenAI API key (for GPT model)
-- **Serper.dev API key (Google Search/Web API)
-- **Pinecone API key (vector database; account required)
-- **(Optional: Docker for deployment)
+- **Python 3.11+**
+- **OpenAI API key** (for GPT model)
+- **Serper.dev API key** (Google Search/Web API)
+- **Pinecone API key** (vector database; account required)
+- **(Optional: Docker for deployment)**
 
 ***
 
@@ -113,3 +113,4 @@ docker run -p 8000:8000 ara-bot
 - **PDF not downloading:** Check browser pop-up/settings or file directory permissions.
 
 ***
+

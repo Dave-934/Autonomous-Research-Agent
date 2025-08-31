@@ -35,10 +35,12 @@ _Typical Requirements (see requirements.txt for full list):_
 - `langchain`
 - `langchain-openai`
 - `openai`
+- `llama-Index`
 - `pinecone-client`
 - `faiss-cpu` (optional, local vector store)
 - `streamlit`
 - `fastapi`
+- `uvicorn`
 - `requests`
 - `python-dotenv`
 - `reportlab` (for PDF report output)
@@ -113,4 +115,5 @@ docker run -p 8000:8000 ara-bot
 - **PDF not downloading:** Check browser pop-up/settings or file directory permissions.
 
 ***
+
 
